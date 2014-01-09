@@ -1,0 +1,15 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2014-01-09
+#+TITLE: nodejs web开发TODO
+
+
+
+* 需要熟悉的库
+** mongodb
+
+** ejs模板系统
+
+** express(web框架)
+
+** md5(核心模块)
