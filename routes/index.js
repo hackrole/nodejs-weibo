@@ -6,3 +6,10 @@
 exports.index = function(req, res){
   res.render('index', { title: 'Express' });
 };
+
+exports.hello = function(req, res){
+    res.render('hello', {
+        title: 'express',
+        layout: 'layout',
+    });
+};
