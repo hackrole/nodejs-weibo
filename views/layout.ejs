@@ -1,6 +1,25 @@
 <html>
 <body>
 <h1> the layout html</h1>
+<ul class="nav">
+  <li class="active"><a href="/">首页</a></li>
+  <% if(!user) { %>
+     <li><a href="/login">登入</a></li>
+     <li><a href="/reg">注册</a></li>
+  <% }else{ %>
+     <li><a href="/logout">登出</a></li>
+  <% } %>
+
+<% if(success) { %>
+   <div class="alert alert-success">
+     <%= success %>
+   </div>
+<% } %>
+<% if(error){ %>
+   <div class="alert alert-error">
+     <%= error %>
+   </div>
+<% } %>
 <%- body %>
 </body>
 </html>
